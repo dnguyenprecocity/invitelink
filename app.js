@@ -23,5 +23,18 @@ app.get("/.well-known/apple-app-site-association", (_, res) => {
   });
 });
 
+app.get("/.well-known/assetslinks.json", (_, res) => {
+  res.json([
+    {
+      relation: ["delegate_permission/common.handle_all_urls"],
+      target: {
+        namespace: "android_app",
+        package_name: "com.knightvest_poc",
+        sha256_cert_fingerprints: ["sdf"],
+      },
+    },
+  ]);
+});
+
 // start the server listening for requests
 app.listen(process.env.PORT || 3000, () => console.log("Server is running..."));
