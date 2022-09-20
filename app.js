@@ -15,7 +15,7 @@ app.get("/.well-known/apple-app-site-association", (_, res) => {
       apps: [],
       details: [
         {
-          appID: "Y5J4757RA3.org.reactjs.native.example.Knightvest-POC",
+          appID: "Y5J4757RA3.org.reactjs.native.example.Knightvest-POCaaa",
           paths: ["*"],
         },
       ],
@@ -30,7 +30,9 @@ app.get("/.well-known/assetslinks.json", (_, res) => {
       target: {
         namespace: "android_app",
         package_name: "com.knightvest_poc",
-        sha256_cert_fingerprints: ["sdf"],
+        sha256_cert_fingerprints: [
+          "14:6D:E9:83:C5:73:06:50:D8:EE:B9:95:2F:34:FC:64:16:A0:83:42:E6:1D:BE:A8:8A:04:96:B2:3F:CF:44:E5",
+        ],
       },
     },
   ]);
