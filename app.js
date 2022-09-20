@@ -23,7 +23,7 @@ app.get("/.well-known/apple-app-site-association", (_, res) => {
   });
 });
 
-app.get("/.well-known/assetslinks.json", (_, res) => {
+app.get("/.well-known/assetlinks.json", (_, res) => {
   res.send([
     {
       relation: ["delegate_permission/common.handle_all_urls"],
