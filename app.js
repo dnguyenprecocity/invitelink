@@ -6,7 +6,7 @@ const app = express();
 
 // define the first route
 app.get("/", (_, res) => {
-  res.send("HELLO WORLD");
+  res.send("Hello World");
 });
 
 app.get("/.well-known/apple-app-site-association", (_, res) => {
