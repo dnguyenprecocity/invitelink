@@ -15,7 +15,7 @@ app.get("/.well-known/apple-app-site-association", (_, res) => {
       apps: [],
       details: [
         {
-          appID: "Y5J4757RA3.org.reactjs.native.example.Knightvest-POCaaa",
+          appID: "Y5J4757RA3.org.reactjs.native.example.Knightvest-POC",
           paths: ["*"],
         },
       ],
