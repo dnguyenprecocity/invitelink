@@ -31,7 +31,7 @@ app.get("/.well-known/assetlinks.json", (_, res) => {
         namespace: "android_app",
         package_name: "com.knightvest_poc",
         sha256_cert_fingerprints: [
-          "EF:64:79:D0:90:6D:50:EA:45:A9:01:89:0B:63:D2:A0:A1:19:90:31:50:2E:6D:3D:AC:41:8C:51:7C:3D:ED:28",
+          "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C",
         ],
       },
     },
