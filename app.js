@@ -15,7 +15,7 @@ app.get("/.well-known/apple-app-site-association", (_, res) => {
       apps: [],
       details: [
         {
-          appID: "Y5J4757RA3.com.apthub.precocity",
+          appID: "89P5VX46N4.com.apthub.precocity",
           paths: ["*"],
         },
       ],
@@ -29,7 +29,7 @@ app.get("/.well-known/apple-app-site-association", (_, res) => {
       apps: [],
       details: [
         {
-          appID: "Y5J4757RA3.com.apthub.precocity",
+          appID: "89P5VX46N4.com.apthub.precocity",
           paths: ["*"],
         },
       ],
