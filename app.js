@@ -15,7 +15,7 @@ app.get("/.well-known/apple-app-site-association", (_, res) => {
       apps: [],
       details: [
         {
-          appID: "89P5VX46N4.com.apthub",
+          appID: "Y5J4757RA3.com.apthub.precocity",
           paths: ["*"],
         },
       ],
