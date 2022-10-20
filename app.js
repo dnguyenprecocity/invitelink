@@ -23,6 +23,20 @@ app.get("/.well-known/apple-app-site-association", (_, res) => {
   });
 });
 
+app.get("/.well-known/apple-app-site-association", (_, res) => {
+  res.json({
+    applinks: {
+      apps: [],
+      details: [
+        {
+          appID: "Y5J4757RA3.com.apthub.precocity",
+          paths: ["*"],
+        },
+      ],
+    },
+  });
+});
+
 app.get("/.well-known/assetlinks.json", (_, res) => {
   res.send([
     {
