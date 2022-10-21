@@ -45,7 +45,7 @@ app.get("/.well-known/assetlinks.json", (_, res) => {
         namespace: "android_app",
         package_name: "com.apthub",
         sha256_cert_fingerprints: [
-          "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C",
+          "0D:A9:D8:55:E7:88:8F:B4:CE:99:C4:71:37:27:46:1E:8B:08:3D:B4:4A:0A:C9:46:97:D2:39:E0:86:25:62:08",
         ],
       },
     },
